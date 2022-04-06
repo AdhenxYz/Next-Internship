@@ -1,0 +1,27 @@
+.container {
+  padding: 0 2rem;
+}
+
+.header{
+  border-bottom: 2px solid black;
+}
+.main {
+  min-height: 10vh;
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  border: 0.8px solid grey;
+  box-shadow: 4*px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttons{
+  padding : 0 5em;
+  color: skyblue;
+  background-color: green;
+}
